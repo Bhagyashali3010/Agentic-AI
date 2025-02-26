@@ -1,10 +1,9 @@
 from phi.agent import Agent
 from phi.model.groq import Groq
 from phi.tools.yfinance import YFinanceTools
-from phi.tools.duckduckgo import DuckDuckGo
 
 
-def first(user):
+def tool(user):
     finance_agent=Agent(
         name="Financial AI Agent",
         model=Groq(id="llama-3.2-11b-vision-preview"),
@@ -20,7 +19,7 @@ def first(user):
     
 
 user=input("Enter your Query:")
-oj=first(user)
+oj=tool(user)
 print(oj)
 
 
