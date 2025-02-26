@@ -3,5 +3,6 @@ python-dotenv
 yfinance
 packaging
 fastapi
+duckduckgo
 uvicorn
 groq

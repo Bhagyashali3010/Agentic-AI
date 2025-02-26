@@ -18,7 +18,7 @@ def tool(user):
     return (result)
     
 
-user=input("Enter your Query:")
+user=input("Enter your Financial Query:")
 oj=tool(user)
 print(oj)
 
