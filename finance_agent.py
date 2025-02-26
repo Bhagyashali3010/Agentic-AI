@@ -17,8 +17,7 @@ def first(user):
     )
     result=finance_agent.run(user,markdown=True, period="3mo")
     return (result)
-    
-    
+       
     
 def main():
     st.title("💰 Financial AI Assistant")
